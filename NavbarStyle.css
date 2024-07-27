@@ -1,0 +1,192 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #F4F2EE;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  gap: 100px;
+  padding: 20px;
+}
+
+.LinkedInImg {
+  height: 30px;
+}
+.navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-container img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+.Search {
+  padding: 8px;
+  border: solid 0px;
+  background: #dce6f0;
+  border-radius: 0px;
+  width: 280px;
+}
+.Search::placeholder {
+  padding-left: 30px;
+}
+
+.navRight {
+  display: flex;
+}
+.homesection {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.home {
+  height: 20px;
+}
+.hometext {
+  font-size: 11px;
+  color: #736355;
+  margin-top: 3px;
+}
+.networksection {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.network {
+  height: 20px;
+}
+.networktext {
+  font-size: 11px;
+  color: #736355;
+  margin-top: 3px;
+}
+.jobssection {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .jobs {
+    height: 20px;
+  }
+  .jobstext {
+    font-size: 11px;
+    color: #736355;
+    margin-top: 3px;
+  }
+  .messagesection {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+  }
+  .message {
+    height: 20px;
+  }
+  .messagetext {
+    font-size: 11px;
+    color: #736355;
+    margin-top: 3px;
+  }
+  .messageNotification{
+    position: absolute;
+    font-size: 10px;
+    background-color: #CB112D;
+    color: white;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 30px;
+    right: 10px;
+    bottom: 25px;
+  }
+  .notificationsection {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+  }
+  .notification {
+    height: 20px;
+  }
+  .notificationtext {
+    font-size: 11px;
+    color: #736355;
+    margin-top: 3px;
+    
+  }
+  .notificatoionNotification{
+    position: absolute;
+    font-size: 10px;
+    background-color: #CB112D;
+    color: white;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 30px;
+    right: 11px;
+    bottom: 23px;
+  }
+
+  .navRight{
+    padding: 7px;
+    width: 420px;
+    display: flex;
+    justify-content: space-around;
+    border-right: 2px solid #736355;
+  }
+  .rightsection{
+    display: flex;
+    
+  }
+  .profileSection{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10px;
+  }
+  .profilePic{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 29px;
+    border-radius: 100%;
+    
+  }
+  .arrowdown{
+    height: 24px;
+    right: 14px;
+    position: absolute;
+    top: 30px;
+  }
+  .rightText{
+    width: 140px;
+    text-align: center;
+    color: #736355;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+.allsection{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}

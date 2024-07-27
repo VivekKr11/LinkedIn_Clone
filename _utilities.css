@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+@media only screen and (inx-width:640px) {
+   .container{
+    max-width: 640px;
+   } 
+}
+@media only screen and (inx-width:768px) {
+   .container{
+    max-width: 768px;
+   } 
+}
+@media only screen and (min-width:1024px) {
+   .container{
+    max-width: 1024px;
+   } 
+}
+@media only screen and (min-width:1280px) {
+   .container{
+    max-width: 1280px;
+   } 
+}
+@media only screen and (min-width:1536px) {
+   .container{
+    max-width: 1536px;
+   } 
+}

@@ -1,0 +1,147 @@
+.MainSection{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.upperpart{
+    border: 2px solid #F4F2EE;
+    padding: 2px;
+    border-radius: 10px;
+}
+.LeftContainer{
+  width: 300px;
+  height: 800px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+}
+.profileImage{
+    height: 130px;
+    border-radius: 100%;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+.upperSide{
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(to right top, #ff137a, #f85b53, #e28746, #c9a659, #b6bc81);
+}
+.nameTag{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    flex-direction: column;
+    text-align: center;
+}
+.yash{
+   font-weight: bold;
+   color: #736355;
+   font-size: 17px;
+}
+.nameDescription{
+    color: #736355;
+    margin-top: 4px;
+    font-size: 15px;
+}
+.nameTag{
+    padding: 10px;
+    border-bottom: 3px solid #F4F2EE;
+}
+.connections{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.containerleft{
+    padding: 12px;
+    border-bottom: 3px solid #F4F2EE;
+}
+.connectionleft{
+    color: #736355;
+    font-size: 14px;
+}
+.connectionright{
+    color: #448AD0;
+    font-weight: 500;
+}
+.network{
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+.who{
+    display: flex;
+    justify-content: space-between;
+   
+    /* border-bottom: 3px solid #F4F2EE; */
+    margin-top: 9px;
+}
+.whoLeft{
+    color: #736355;
+    font-weight: 400;
+    font-size: 17px;
+}
+.whoright{
+    color: #448AD0;
+    font-weight: 500;
+}
+
+.thirdline{
+padding: 10px;
+border-bottom: 3px solid #F4F2EE ;
+}
+.Access{
+    color: #736355;
+    font-size: 14px ;
+}
+.premium{
+    color: #736355;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 7px;
+    /* margin-right: 4px; */
+}
+.saved{
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+.savedImg{
+    height: 35px;
+
+}
+.Items{
+        color: #736355;
+    font-size: 14px;
+}
+.lowerPart{
+    padding: 12px;
+}
+.recent{
+    color: #736355;
+}
+.lowerPart ul{
+  list-style-type: none;
+  color: #736355;
+  margin-top: 17px;
+  
+}
+.lowerPart ul li{
+    margin-top: 13px;
+}
+.groups{
+    color: #448AD0;
+    margin-top: 12px;
+}
+.tensor{
+    display: flex;
+    margin-top: 12px;
+    gap: 20px;
+    color: #736355;
+}
+.tensorImg{
+    height: 20px;
+}
